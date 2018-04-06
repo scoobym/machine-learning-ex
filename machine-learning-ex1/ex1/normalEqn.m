@@ -4,7 +4,7 @@ function [theta] = normalEqn(X, y)
 %   regression using the normal equations.
 
 theta = zeros(size(X, 2), 1);
-theta=pinv(X'*X)*X'*y;
+
 
 % ====================== YOUR CODE HERE ======================
 % Instructions: Complete the code to compute the closed form solution
@@ -13,7 +13,7 @@ theta=pinv(X'*X)*X'*y;
 
 % ---------------------- Sample Solution ----------------------
 
-
+theta=pinv(X'*X)*X'*y;
 
 
 % -------------------------------------------------------------
