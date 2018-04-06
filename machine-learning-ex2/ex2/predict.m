@@ -22,9 +22,6 @@ for i=1:m
     p(i)=0;
   end
 end
-  
-
-
 
 
 

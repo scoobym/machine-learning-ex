@@ -19,13 +19,11 @@ grad = zeros(size(theta));
 J = (-y'*log(sigmoid(X*theta))-(1-y')*log(1-sigmoid(X*theta)))/m+lambda/2/m*(sum(theta(2:size(theta,1),1).^2));
 
 grad(1) = sum(sigmoid(X*theta)-y)./m;
+
 for i=2:size(theta)
   grad(i) = X(:,i)'*(sigmoid(X*theta)-y)/m+lambda*theta(i)/m;
 end
   
-  
-
-
 
 
 % =============================================================
