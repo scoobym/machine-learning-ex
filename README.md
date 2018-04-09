@@ -2,7 +2,7 @@
 Machine Learning Excercise-Coursera-Andrew Ng
 
 ## ex1
-Linear-Regression
+Linear Regression
 ## ex2
 Logistic Regression
 ## ex3
